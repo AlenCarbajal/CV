@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume - Alén Carbajal</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Alén Carbajal</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
+    <body>
         <div class="container">
-            <div class="row">
-                <div class="col-md-8">
+            <div class="top">
+                <div class="col-md">
                     <h1>Alén Carbajal</h1>
                     <p class="contact-info">
                         Buenos Aires, Argentina<br>
@@ -23,14 +22,15 @@
                     </p>
                 </div>
             </div>
-    
+            <hr style="border-color: #17a2b8; "/>
+
             <div class="two-columns">
                 <div class="column">
                     <section>
                         <h2 class="section-title">Professional Objective</h2>
                         <div class="block">
-                            <p>Aspiring backend software developer with experience in leading small software development and data analysis teams, 
-                                interested in software development or data analysis roles.</p>
+                            <p>Software developer with experience leading small teams in 
+                                development and data analysis, seeking roles in both fields.</p>
                         </div>
                     </section>
     
@@ -77,7 +77,7 @@
                                             <li>&#8226; Salesforce</li>
                                             <li>&#8226; Tableau</li>
                                             <li>&#8226; Excel</li>
-                                            <li>&#8226; Power Bi</li>
+                                            <li>&#8226; Power BI</li>
                                             <li>&#8226; Azure</li>
                                             <li>&#8226; AWS</li>
                                         </ul>
@@ -86,7 +86,96 @@
                             </div>
                         </div>
                     </section>
+                    
+                    <section>
+                        <h2 class="section-title">Projects</h2>
+                        <div class="block">
+                            <p>
+                                <strong>
+                                    API for learning through scheduled WhatsApp messages
+                                </strong>
+                            </p>
+                            <p>
+                                Created a backend API to manage scheduled WhatsApp 
+                                messages that keeps track of the users status, moves through
+                                steps with different content and allows them to subscribe/unsubscribe.
+                            </br></br>
+                                Technologies: Node, Express, PostgreSQL.
+                            </p>
+                            <p>
+                                <strong>
+                                    Resource management platform
+                                </strong>
+                            </p>
+                            <p>
+                                Developed a resource management platform that allows team members 
+                                to search for resources using tags, upload new resources, 
+                                group them, and navigate a homepage featuring various categories.
+                            </br></br>
+                                Technologies: MongoDB, Express, React, Node.
+                            </p>
+                            <p>
+                                <strong>
+                                    Power BI and data analysis course
+                                </strong>
+                            </p>
+                            <p>
+                                Designed and delivered training sessions for corporate clients, 
+                                focusing on data management and visualization using Power BI. 
+                                Covered topics included relational data modeling, data sourcing,
+                                cleaning techniques, and dashboard design.
+                            </p>
+                        </div>
+                    </section>
+                    
+                </div>
     
+                <div class="column">
+                    <section>
+                        <h2 class="section-title">Work Experience</h2>
+                        <div class="block">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <p class="job-title">ZIGLA Consulting</p>
+                                    <p>Digital Solutions Leader (05/2021 - Present)</p>
+                                    <div>
+                                        Responsible for leading a team of three junior analysts in designing
+                                        and implementing ETL processes, and developing custom solutions such 
+                                        as integrations or automatizations, as well as web applications to meet 
+                                        internal and external client needs. Technical Product Owner of ZIGLA chat,
+                                        a WhatsApp-based chat tool for social impact measurement.
+                                        Lead tool exploration and process documentation to enhance operational
+                                        effectiveness.
+                                    </div>
+                                </li>
+                            </br>
+                                <li>
+                                    <p class="job-title">Universidad Tecnológica Nacional - FRBA</p>
+                                    <p>Computer Science 1 Assistant (2021 - Present)</p>
+                                    <ul>
+                                        <li>Linux, C programming, data structures and computer architecture.</li>
+                                    </ul>
+                                </li>
+                            </br>
+                                <li>
+                                    <p class="job-title">Government of the City of Buenos Aires</p>
+                                    <p><b>Data Analyst (2019 - 2021)</b></p>
+                                    <ul>
+                                        <li>&#8226; Data extraction and report generation</li>
+                                        <li>&#8226; Coordination to obtain information from dependent areas</li>
+                                        <li>&#8226; Participation in data-driven strategy design</li>
+                                    </ul>
+                                    <p><b>Administrative in Purchasing Management (2015 - 2019)</b></p>
+                                    <ul>
+                                        <li>&#8226; Bids evaluation and process automation</li>
+                                        <li>&#8226; Process management in the purchasing system</li>
+                                        <li>&#8226; Assisting suppliers and drafting legal documents</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
                     <section>
                         <h2 class="section-title">Languages</h2>
                         <div class="block">
@@ -109,84 +198,13 @@
                         </div>
                     </section>
                 </div>
-    
-                <div class="column">
-                    <section>
-                        <h2 class="section-title">Work Experience</h2>
-                        <div class="block">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <p class="job-title">ZIGLA Consulting</p>
-                                    <p>Digital Solutions Leader (05/2021 - Present)</p>
-                                    <div>
-                                        Responsible for leading a team of three junior analysts in designing
-                                        and implementing ETL processes, and developing custom solutions such 
-                                        as integrations or automatizations, as well as web applications to meet 
-                                        internal and external client needs. Technical Product Owner of ZIGLA chat
-                                        , a WhatsApp-based chat tool for social impact measurement.
-                                        Lead tool exploration and process documentation to enhance operational
-                                        effectiveness.
-                                    </div>
-                                </li>
-                                <li>
-                                    <p class="job-title">Universidad Tecnológica Nacional - FRBA</p>
-                                    <p>Computer Science 1 Assistant (2021 - Present)</p>
-                                    <ul>
-                                        <li>Linux, C programming, data structures, and computer architecture.</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <p class="job-title">Government of the City of Buenos Aires</p>
-                                    <p><b>Data Analyst (2019 - 2021)</b></p>
-                                    <ul>
-                                        <li>&#8226; Data extraction and report generation</li>
-                                        <li>&#8226; Coordination to obtain information from dependent areas</li>
-                                        <li>&#8226; Participation in data-driven strategy design</li>
-                                    </ul>
-                                    <p><b>Administrative in Purchasing Management (2015 - 2019)</b></p>
-                                    <ul>
-                                        <li>&#8226; Evaluation of bids and process automation</li>
-                                        <li>&#8226; Process management in the purchasing system</li>
-                                        <li>&#8226; Assisting suppliers and drafting legal documents</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-    
-                    <section>
-                        <h2 class="section-title">Personal Projects</h2>
-                        <div class="block">
-                            <p><strong>RESTful API for Recipe Management</strong></p>
-                            <ul>
-                                <li>Created a backend API to manage recipes.</li>
-                                <li>Technologies: Node.js, Express, MongoDB.</li>
-                            </ul>
-                        </br>
-                            <p>
-                                <strong>
-                                Power BI and data analysis course
-                                </strong>
-                            </p>
-                            <p>
-                                Designed and delivered tailored training sessions for corporate clients, 
-                                focusing on data management and visualization using Power BI. 
-                                Covered topics included relational data modeling, data sourcing,
-                                cleaning techniques, and dashboard design.
-                            </p>
-                        </div>
-                    </section>
-                </div>
             </div>
         </div>
     </div>
-    
 
-    
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
 
 </html>
